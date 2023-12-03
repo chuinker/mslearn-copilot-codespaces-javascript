@@ -130,14 +130,21 @@ img.socialIcon:hover {
   animation-iteration-count: infinite;
 }
 
+/*add rotation to the social icons*/
+img.socialIcon.rotate {
+  animation: rotate 1s;
+  animation-iteration-count: infinite;
+}
+
+/* add a bounce animation to the social icons */
 @keyframes bounce {
   0% {
-    transform: scale(1);
+    transform: translateY(0px);
   }
   50% {
-    transform: scale(1.2);
+    transform: translateY(-10px);
   }
   100% {
-    transform: scale(1);
+    transform: translateY(0px);
   }
 }
