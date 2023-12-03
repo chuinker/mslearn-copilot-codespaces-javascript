@@ -148,3 +148,16 @@ img.socialIcon.rotate {
     transform: translateY(0px);
   }
 }
+
+/* add a rotation animation to the social icons */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
